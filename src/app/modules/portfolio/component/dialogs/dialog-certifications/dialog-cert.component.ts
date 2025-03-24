@@ -6,12 +6,12 @@ import { IProjects } from '../../../interface/IProjects.interface';
   selector: 'app-dialog-certifications',
   standalone: true,
   imports: [MatDialogModule],
-  templateUrl: './dialog-certifications.component.html',
-  styleUrl: './dialog-certifications.component.scss',
+  templateUrl: './dialog-cert.component.html',
+  styleUrl: './dialog-cert.component.scss',
 })
-export class DialogCertificationsComponent implements OnInit {
+export class DialogCertComponent implements OnInit {
   constructor(
-    private _dialogRef: MatDialogRef<DialogCertificationsComponent>,
+    private _dialogRef: MatDialogRef<DialogCertComponent>,
     @Inject(MAT_DIALOG_DATA) private _data: IProjects
   ) {}
 

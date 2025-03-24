@@ -1,8 +1,8 @@
 import { Component, inject, signal } from '@angular/core';
-import { IProjects } from '../../interface/IProjects.interface';
-import {MatDialog, MatDialogModule} from '@angular/material/dialog';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { EDialoagPanelClass } from '../../enum/EDialogPanelClass.enum';
-import { DialogCertificationsComponent } from '../dialogs/dialog-certifications/dialog-certifications.component';
+import { IProjects } from '../../interface/IProjects.interface';
+import { DialogCertComponent } from '../dialogs/dialog-certifications/dialog-cert.component';
 
 @Component({
   selector: 'app-certifications',
@@ -134,7 +134,7 @@ export class CertificationsComponent {
     {
       src: 'assets/img/project/PSM.png',
       alt: 'Scrum Master',
-      title: 'Professional Scrum Master I- Scrum.org',
+      title: 'Professional Scrum Master I - Scrum.org',
       width: '100px',
       height: '50px',
       description:
@@ -192,7 +192,7 @@ export class CertificationsComponent {
   ]);
 
   public openDialog(data: IProjects) {
-    this.#dialog.open(DialogCertificationsComponent, {
+    this.#dialog.open(DialogCertComponent, {
       data,
       panelClass: EDialoagPanelClass.CERTIFICATIONS,
     });
