@@ -1,10 +1,10 @@
 <div class="container">
-  <h2>Developed Projects</h2>
+  <h2>License and certificates</h2>
 
   <ul>
-    @for(item of projects(); track item){
+    @for(item of certifications(); track item){
       <li>
-        <button>
+        <button (click)="openDialog(item)">
           <img [src]="item.src" [alt]="item.alt" loading="lazy" [attr.width]="item.width" [attr.height]="item.height">
         </button>
       </li>

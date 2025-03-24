@@ -12,17 +12,24 @@ export class ExperiencesComponent {
   public experiences = signal<IExperience[]>([
     {
       summary: {
-        strong: 'Frontend Developer',
-        p: 'Avanade | Ago 2022 - Present',
+        strong: 'Scrum master and Frontend Developer',
+        p: 'Avanade | Jun 2023 - Present',
       },
-      text: 'As a frontend developer, I started my journey at Avanade as a full-stack intern, where I gained comprehensive knowledge during training in Node.js and React. In a challenging project, I expanded my skills by working with technologies such as Java, serverless and AWS Lambdas. Later, I was hired as a frontend developer, contributing to projects using OutSystems and Angular. Furthermore, I deepened my understanding of agile methodologies, highlighting my commitment to efficient software development and delivery practices.',
+      text: '<p>As a Frontend Analyst (mid-level), I specialize in developing dynamic and responsive web applications using Angular, TypeScript, and Git. My role involves implementing user-focused features, ensuring code quality, and optimizing performance to deliver seamless experiences.Additionally, I contribute as a Scrum Master, facilitating agile ceremonies, removing blockers, and fostering collaboration within the team to drive successful project outcomes. With expertise in frontend technologies and agile methodologies, I aim to create efficient solutions that align with business goals and enhance user satisfaction.</p>',
+    },
+    {
+      summary: {
+        strong: 'Full-stack intern',
+        p: 'Avanade | Ago 2022 - Jun/2023'
+      },
+      text: '<p>I started my journey at Avanade as a full-stack intern, where I gained comprehensive knowledge during training in Node.js and React. In a challenging project, I expanded my skills by working with technologies such as Java, serverless and AWS Lambdas. Later, I was hired as a frontend developer, contributing to projects using OutSystems and Angular. Furthermore, I deepened my understanding of agile methodologies, highlighting my commitment to efficient software development and delivery practices.</p>',
     },
     {
       summary: {
         strong: 'Internship',
         p: 'IBM | Ago 2021 - Ago 2022',
       },
-      text: 'As an intern at IBM, my work focused on the mainframe, natural language and JCL (Job Control Language). Additionally, I had the opportunity to contribute to a React project for a short period, expanding my knowledge of modern web development technologies.',
+      text: '<p>As an intern at IBM, my work focused on the mainframe, natural language and JCL (Job Control Language). Additionally, I had the opportunity to contribute to a React project for a short period, expanding my knowledge of modern web development technologies.</p>',
     },
     {
       summary: {
